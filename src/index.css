@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  --animate-rolling: spin 1s linear infinite;
   --color-blue200: hsl(193, 38%, 86%);
   --color-green300: hsl(150, 100%, 66%);
   --color-blue600: hsl(217, 19%, 38%);
