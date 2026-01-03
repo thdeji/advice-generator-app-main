@@ -41,7 +41,9 @@ function App() {
         onClick={() => setGenerate((prev) => !prev)}
       >
         <img
-          className=""
+          className={`transition-transform duration-500 ease-in-out ${
+            generate ? "rotate-180" : "rotate-0"
+          }`}
           src="./images/icon-dice.svg"
           alt="icon-dice.svg"
         />
