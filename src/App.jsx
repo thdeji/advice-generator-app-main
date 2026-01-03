@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="bg-blue950 font-manrope h-screen flex flex-col justify-center items-center">
-      <div className="bg-blue900 p-10 flex flex-col gap-5 text-center mx-10">
+      <div className="bg-blue900 p-10 flex flex-col gap-5 text-center mx-10 md:mx-50  rounded-lg shadow-2xl shadow-black">
         <h1 className="text-green-300 text-sm">ADVICE #{title}</h1>
         <p className="text-blue200 text-2xl font-bold">"{advice}"</p>
         {isNotMobile ? <img

@@ -14,4 +14,5 @@ export default defineConfig({
     tailwindcss(),
     svgr(),
   ],
+  base: "/advice-generator-app-main/",
 });
