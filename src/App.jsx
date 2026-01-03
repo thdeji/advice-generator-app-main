@@ -29,10 +29,10 @@ function App() {
         <h1 className="text-green-300 text-sm">ADVICE #{title}</h1>
         <p className="text-blue200 text-2xl font-bold">"{advice}"</p>
         {isNotMobile ? <img
-          src="/images/pattern-divider-desktop.svg"
+          src="./images/pattern-divider-desktop.svg"
           alt="pattern divider"
         />: <img
-          src="/images/pattern-divider-mobile.svg"
+          src="./images/pattern-divider-mobile.svg"
           alt="pattern divider"
         />}
       </div>
@@ -42,7 +42,7 @@ function App() {
       >
         <img
           className=""
-          src="/images/icon-dice.svg"
+          src="./images/icon-dice.svg"
           alt="icon-dice.svg"
         />
       </div>
