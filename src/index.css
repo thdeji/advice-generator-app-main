@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue200: hsl(193, 38%, 86%);
+  --color-green300: hsl(150, 100%, 66%);
+  --color-blue600: hsl(217, 19%, 38%);
+  --color-blue900: hsl(217, 19%, 24%);
+  --color-blue950: hsl(218, 23%, 16%);
+  --font-manrope: "Manrope", sans-serif;
+}
